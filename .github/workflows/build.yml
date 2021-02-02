@@ -16,3 +16,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: cargo build --verbose
+      env:
+        RUST_BACKTRACE=1
