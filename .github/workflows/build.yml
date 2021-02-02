@@ -17,4 +17,4 @@ jobs:
     - name: Build
       run: cargo build --verbose
       env:
-        RUST_BACKTRACE=1
+        RUST_BACKTRACE: 1
